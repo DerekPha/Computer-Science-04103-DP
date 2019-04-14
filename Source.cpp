@@ -92,17 +92,19 @@ int main()
 
 
     //Display purpose of program
-    cout << " ******************************************"<<endl;
-    cout << " This program converts the user's first initial into a block letter " <<endl;
+    cout << " ******************************************" << endl;
+    cout << " This program converts the user's first initial (D) into a block letter " << endl;
     cout << " ******************************************\n\n";
 
-    string first;
-    cout<<"What is the first initial of your first name? ";
-    cin>>first;
-    if(first[0]=A)
-    {
+    cout << "****  " << endl;
+    cout << "*   * " << endl;
+    cout << "*    *" << endl;
+    cout << "*    *" << endl;
+    cout << "*   * " << endl;
+    cout << "****  " << endl << endl;
+    cout << "Program 5 has ended" << endl;
 
-    }
+    system("pause");
 
-
+    return 0;
 }
